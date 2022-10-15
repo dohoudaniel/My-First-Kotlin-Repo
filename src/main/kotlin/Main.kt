@@ -76,8 +76,8 @@ fun workingWithBooleansAndIfElse() {
     if (!testFalse)
         println("I have a lot going on now. I is a part of life. So I will never give up.")
 
-    val toSee:Int = 99
-    val checking:Int = if (toSee == 100) 100 else 200
+    //val toSee:Int = 99
+    //val checking:Int = if (toSee == 100) 100 else 200
     println("I must complete the Project Phase of GADS where I am now, and I must finish the ALX SE Program")
 }
 
@@ -112,8 +112,10 @@ fun firstStringTemplate() {
 
 fun testString() {
     val second:String = "Kotlin is"
-    val n = "Do you really believe that $second\n" // \n is a newline character
-    val p = "........a better Java?. It truly is..." //Type Inference here automates n to being a string
+    val n = "Do you really believe that $second" // \n is a newline character
+    val p = " a better Java?. It truly is easy to learn...\n" //Type Inference here automates n to being a string
+    println(n)
+    print(p)
     println("The bottom line is as long as I am alive, I am never giving up'")
     println("""Thank you Mr Dohou Daniel for having this session with us. We really hope to see you at the end of
         |the line. Keep learning, keep pushing and please, never give up!
